@@ -1,0 +1,20 @@
+name: gha-test
+
+on:
+  push:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "job1"
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "job2"
+
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "job3"
